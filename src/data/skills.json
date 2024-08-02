@@ -1,0 +1,45 @@
+{
+    "skills": [
+      {
+        "name": "HTML",
+        "image": "https://i.postimg.cc/QdpqgNV6/html-5-svgrepo-com.png"
+      },
+      {
+        "name": "CSS",
+        "image": "https://i.postimg.cc/J4Hxn58C/css-3-svgrepo-com.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "https://i.postimg.cc/zf8Fxmgq/js-svgrepo-com.png"
+      },
+      {
+        "name": "React",
+        "image": "https://i.postimg.cc/DZzdKq6D/react-svgrepo-com.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png"
+      },
+      {
+        "name": "Git",
+        "image": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg"
+      },
+      {
+        "name": "Node.js",
+        "image": "https://www.svgrepo.com/show/303360/nodejs-logo.svg"
+      },
+      {
+        "name": "Python",
+        "image": "https://www.svgrepo.com/show/376344/python.svg"
+      },
+      {
+        "name": "MySQL",
+        "image": "https://www.svgrepo.com/show/303251/mysql-logo.svg"
+      },
+      {
+        "name": "Flask",
+        "image": "https://icon.icepanel.io/Technology/png-shadow-512/Flask.png"
+      }
+    ]
+  }
+  

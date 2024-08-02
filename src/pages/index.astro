@@ -1,0 +1,65 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import skills from '../data/skills.json';
+import projects from '../data/projects.json';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<img src="https://i.postimg.cc/tTfhp4Xy/hq4wnaacj8g41mjn3a5nsuzrdp0a.png" alt="avatar" width="100" height="100" style="border-radius: 50%;">
+			<h1>Hello, I´m Joshua</h1>
+			<p>
+				I'm a web developer passionate about creating dynamic and functional web experiences. Since discovering my interest in technology and web development, I've dedicated my time to learning and improving my skills in this ever-evolving field.
+			</p>
+			<h1>Frontend and Backend Skills</h1>
+    		<ul class="skills">
+    		  {skills.skills.map(skill => (
+    		    <li>
+    		      <img src={skill.image} alt={skill.name} width="30" height="20" />
+    		    </li>
+    		  ))}
+    		</ul>
+			<h1>Projects</h1>
+			<ul class="projects">
+				<!-- {projects.projects.map(projects => (
+				  <li>
+					<img src={projects.image} alt={projects.name} width="30" height="20" />
+					 <h2>{projects.name}</h2>
+					 <span>{projects.description}</span> 
+				  </li>
+				))} -->
+				<h3 class="prox">Coming soon!</h3>
+				<a class="ir" target="_blank" href="https://github.com/Joshua-EPR">Go to Github <img src="https://i.postimg.cc/13xHNVRn/github-svgrepo-com.png" alt="Github" width="30" height="30"/></a>
+			  </ul>
+
+			<h1>Education</h1>
+			<ul>
+				<li>
+					<h5>Centro Educativo Manuel Acevedo Cerrano(CEMAS)</h5>
+					<p>High School and Technical</p>
+					<p>2018 - 2024</p>
+				</li>
+				<li>
+					<h5>Cincinnatus Institute of Craftsmanship, Inc.</h5>
+					<p>Web Applications Development</p>
+					<p>2023 - Actuality</p>
+				</li>
+
+			</ul>
+			<p>
+				For further information, inquiries or contracting, you can contact me through the following e-mail address:  <a>joshuapenacemas@gmail.com
+				</a> to ask questions.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

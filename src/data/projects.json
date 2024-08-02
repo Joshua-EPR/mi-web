@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+        "id": 1,
+        "name": "Project 1",
+        "image": "Project 2",
+        "description": "This is project 1",
+        "status": "active",
+        "link": ""
+        },
+        {
+        "id": 2,
+        "name": "Project 2",
+        "image": "Project 2",
+        "description": "This is project 2",
+        "status": "active",
+        "link": ""
+        },
+        {
+        "id": 3,
+        "name": "Project 3",
+        "image": "Project 2",
+        "description": "This is project 3",
+        "status": "inactive",
+        "link": ""
+        }
+    ]
+}
