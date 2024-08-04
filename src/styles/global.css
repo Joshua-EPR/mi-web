@@ -211,3 +211,32 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+.pcont{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+.pimg{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+.pn{
+	font-size: 30px;
+	margin: 10px;
+}
+.pd{
+	font-size: 20px;
+	margin: 10px;
+}
+.links{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}

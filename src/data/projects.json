@@ -2,27 +2,12 @@
     "projects": [
         {
         "id": 1,
-        "name": "Project 1",
-        "image": "Project 2",
-        "description": "This is project 1",
+        "name": "Social Network With Flask",
+        "image": "https://i.postimg.cc/zvyPy6Kr/Red_social.png",
+        "description": "Social Network With Flask' is a web application designed to provide a complete social networking platform using the Flask framework. This project combines an intuitive user interface with a robust backend architecture to create a seamless and efficient user experience.",
         "status": "active",
-        "link": ""
-        },
-        {
-        "id": 2,
-        "name": "Project 2",
-        "image": "Project 2",
-        "description": "This is project 2",
-        "status": "active",
-        "link": ""
-        },
-        {
-        "id": 3,
-        "name": "Project 3",
-        "image": "Project 2",
-        "description": "This is project 3",
-        "status": "inactive",
-        "link": ""
+        "link": "https://joshuaemil.pythonanywhere.com/",
+        "github": "https://github.com/Joshua-EPR/python-red-social"
         }
     ]
 }
