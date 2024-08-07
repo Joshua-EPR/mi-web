@@ -30,20 +30,21 @@ import projects from '../data/projects.json';
     		</ul>
 			<h1>Projects</h1>
 			<ul class="projects">
-				 {projects.projects.map(projects => (
-				  <li class="pcont">
-					<img class="pimg" src={projects.image} alt={projects.name} />
-					 <h2 class="pn">{projects.name}</h2>
-					 <span class="pd">{projects.description}</span> 
-					 <span class="links">
-						<a target="_blank" href={projects.link}>Live</a>
-						<a target="_blank" href={projects.github}>Github</a>
-					 </span>
+				{projects.projects.map(project => (
+				  <li class="pcont" key={project.id}>
+					<img class="pimg" src={project.image} alt={project.name} />
+					<h2 class="pn">{project.name}</h2>
+					<span class="pd">{project.description}</span>
+					<span class="links">
+					  {project.link && <a target="_blank" href={project.link}>Live</a>}
+					  {project.github && <a target="_blank" href={project.github}>Github</a>}  
+					</span>
 				  </li>
 				))}
-				<!-- <h3 class="prox">Coming soon!</h3>
-				<a class="ir" target="_blank" href="https://github.com/Joshua-EPR">Go to Github <img src="https://i.postimg.cc/13xHNVRn/github-svgrepo-com.png" alt="Github" width="30" height="30"/></a> -->
+				{/* <h3 class="prox">Coming soon!</h3>
+				<a class="ir" target="_blank" href="https://github.com/Joshua-EPR">Go to Github <img src="https://i.postimg.cc/13xHNVRn/github-svgrepo-com.png" alt="Github" width="30" height="30"/></a> */}
 			  </ul>
+			  
 
 			<h1>Education</h1>
 			<ul>

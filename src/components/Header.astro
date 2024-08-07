@@ -68,6 +68,11 @@ import { SITE_TITLE } from '../consts';
 	.social-links,
 	.social-links a {
 		display: flex;
+		transition: ease 0.2s;
+	}
+	.social-links a:hover {
+		transform: scale(1.1);
+		color: rgb(var(--gray));
 	}
 	@media (max-width: 720px) {
 		.social-links {

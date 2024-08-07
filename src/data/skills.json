@@ -18,7 +18,7 @@
       },
       {
         "name": "Tailwind CSS",
-        "image": "https://static-00.iconduck.com/assets.00/tailwind-css-icon-512x307-1v56l8ed.png"
+        "image": "https://i.postimg.cc/qR4DPDfp/file-type-tailwind-256x154.png"
       },
       {
         "name": "Git",
@@ -39,6 +39,14 @@
       {
         "name": "Flask",
         "image": "https://icon.icepanel.io/Technology/png-shadow-512/Flask.png"
+      },
+      {
+        "name": "Next.js",
+        "image": "https://i.postimg.cc/vmWSSFNP/nextjs-1024x1024.png"
+      },
+      {
+        "name": "Astro",
+        "image": "https://i.postimg.cc/yYnsZ4y6/astro-seeklogo.png"
       }
     ]
   }
