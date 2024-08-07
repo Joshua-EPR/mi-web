@@ -4,10 +4,18 @@
         "id": 1,
         "name": "Social Network With Flask",
         "image": "https://i.postimg.cc/zvyPy6Kr/Red_social.png",
-        "description": "Social Network With Flask' is a web application designed to provide a complete social networking platform using the Flask framework. This project combines an intuitive user interface with a robust backend architecture to create a seamless and efficient user experience.",
+        "description": "Social Network With Flask is a web application designed to provide a complete social networking platform using the Flask framework. This project combines an intuitive user interface with a robust backend architecture to create a seamless and efficient user experience.",
         "status": "active",
         "link": "https://joshuaemil.pythonanywhere.com/",
         "github": "https://github.com/Joshua-EPR/python-red-social"
+        },
+        {
+        "id": 2,
+        "name": "Mario Clon",
+        "image": "https://i.postimg.cc/3rz86Nrv/Sin-t-tulo2.png",
+        "description": "This repository contains a clone of the classic Mario video game, developed as a demonstration and learning project. The game faithfully reproduces the experience of the original, with similar levels, enemies and game mechanics. It is implemented using Phaser.js.",
+        "status": "active",
+        "github": "https://github.com/Joshua-EPR/mario-clon"
         }
     ]
 }
